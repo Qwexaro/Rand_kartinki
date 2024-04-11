@@ -1,0 +1,18 @@
+.buttons{
+
+}
+#buttom{
+    margin-top: 0px;
+
+    width: 400px;
+    height: 300px;
+    font-size: 25pt;
+}
+#input1{
+    width: 600px;
+    height: 254px;
+    font-size: 25pt;
+}
+body{
+    display: flex;
+}

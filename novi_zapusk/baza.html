@@ -1,0 +1,29 @@
+<script>
+    // let arr = new Array(+prompt("Vvedite razmer massiva")), sum=0, min, max
+    // for(let i=0;i<arr.length;i++)
+    // {
+    //     sum +=arr[i] = +prompt("Hello world =)")
+    //     if(i==0) min = max = arr[0]
+    //     max = (arr[i]>max)?arr[i]:max
+    //     min = (arr[i]<min)?arr[i]:min
+    // }
+    // console.log(arr, sum)
+</script>
+
+<script>
+    let arr = new Array(10)
+    for(let i = 0; i < arr.length; i++) arr[i] = Math.floor(Math.random()*21-10)
+    console.log(arr)
+    for (let i = 0; i < arr.length; i++)
+    {
+        for(let j=0; j < arr.length-1; j++)
+        {
+            if(arr[j] > arr[j+1]){
+                let tmp = arr[j]
+                arr[j] = arr[j+1]
+                arr[j+1] = tmp
+            }
+        }
+    }
+    console.log(arr)
+</script>
